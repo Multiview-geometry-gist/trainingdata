@@ -25,7 +25,17 @@ left_dir_rot  = [-1.01955,  0.02331, -0.1   ]  <br>
 <img width="465" height="350" alt="image" src="https://github.com/user-attachments/assets/02822e01-4af1-4713-9272-eaa66035e788" />    <br>
 <img width="453" height="101" alt="image" src="https://github.com/user-attachments/assets/6300629f-5d29-45da-be5a-a65c020c0db6" />  <br>
 front_rot = (0.08412, -0.11596, -1)    <br>
-left_rot  = (-0.95108, -0.37136, -0.1)  <br>
+left_rot  = (-0.95108, -0.37136, -0.1)  <br>  
+
+3DSRBench orientation 카테고리 데이터 포맷 <br>  
+## 3D Spatial Reasoning Samples
+
+| index       | question                                                                                                                                                                                                 | A            | B            | C   | D   | answer | category                | image_source | image_url                                                             |
+|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------------|-----|-----|--------|--------------------------|---------------|------------------------------------------------------------------------|
+| 01H3EK4T    | Consider the real-world 3D locations and orientations of the objects. If I stand at the dog's position facing where it is facing, is the man in front of me or behind me?                                | in front of  | behind       | null | null | B      | orientation_in_front_of | MS-COCO       | ![](http://images.cocodataset.org/train2017/000000560373.jpg)         |
+| 0BGU2CVW    | Consider the real-world 3D locations and orientations of the objects. If I stand at the person in white sweater's position facing where it is facing, is the blue arrow sign on the left or right of me? | on the left  | on the right | null | null | B      | orientation_on_the_left | MS-COCO       | ![](http://images.cocodataset.org/train2017/000000412793.jpg)         |
+| 0EI5G56U    | Consider the real-world 3D locations and orientations of the objects. Which side of the grey SUV in the back is facing the camera?                                                                       | front        | left         | back | right | A      | orientation_viewpoint   | MS-COCO       | ![](http://images.cocodataset.org/train2017/000000518850.jpg)         |
+
 
 
 
