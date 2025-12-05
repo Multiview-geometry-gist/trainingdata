@@ -15,7 +15,6 @@ https://huggingface.co/datasets/ccvl/SpatialReasonerTrain-RL
 | **image_filename** | 0029d8bae76d9a79.jpg |  
 <img width="512" height="378" alt="image" src="https://github.com/user-attachments/assets/8964114a-0cd6-4fb8-90cc-03bb458aa86a" />  
 https://s3.amazonaws.com/open-images-dataset/train/{image_id}.jpg => 이걸로 이미지 확인  
-
 10도 로테이션 novel view   
 <img width="553" height="415" alt="image" src="https://github.com/user-attachments/assets/a1edc4c7-ef21-44b0-80b3-1dc42ff07184" />  
 dirction vector에 대해서 그냥 rotation matrix 곱해주기  
@@ -23,8 +22,6 @@ dirction vector에 대해서 그냥 rotation matrix 곱해주기
 front_dir_rot = [ 0.11584, -0.08112, -1     ]  
 left_dir_rot  = [-1.01955,  0.02331, -0.1   ]  
 너무 많이 회전하면 facing the camera 같은 QA가 틀릴수 있음  
-
-
 <img width="465" height="350" alt="image" src="https://github.com/user-attachments/assets/02822e01-4af1-4713-9272-eaa66035e788" />    
 <img width="453" height="101" alt="image" src="https://github.com/user-attachments/assets/6300629f-5d29-45da-be5a-a65c020c0db6" />  
 front_rot = (0.08412, -0.11596, -1)    
