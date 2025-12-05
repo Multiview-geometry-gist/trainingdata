@@ -25,9 +25,9 @@ left_dir_rot  = [-1.01955,  0.02331, -0.1   ]
 너무 많이 회전하면 facing the camera 같은 QA가 틀릴수 있음  
 
 
-<img width="465" height="350" alt="image" src="https://github.com/user-attachments/assets/02822e01-4af1-4713-9272-eaa66035e788" />  
+<img width="465" height="350" alt="image" src="https://github.com/user-attachments/assets/02822e01-4af1-4713-9272-eaa66035e788" />    
 <img width="453" height="101" alt="image" src="https://github.com/user-attachments/assets/6300629f-5d29-45da-be5a-a65c020c0db6" />  
-front_rot = (0.08412, -0.11596, -1)  
+front_rot = (0.08412, -0.11596, -1)    
 left_rot  = (-0.95108, -0.37136, -0.1)  
 
 
